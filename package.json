@@ -1,0 +1,34 @@
+{
+  "name": "inventario-gamer-campus-nodejs-mongodb",
+  "version": "0.0.1",
+  "description": "Inventario Gamer Campus app",
+  "keywords": [
+    "Inventario",
+    "Gamer",
+    "Campus"
+  ],
+  "homepage": "https://github.com/TOTO05-a/inventario-gamer-campus-nodejs-mongodb#readme",
+  "bugs": {
+    "url": "https://github.com/TOTO05-a/inventario-gamer-campus-nodejs-mongodb/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TOTO05-a/inventario-gamer-campus-nodejs-mongodb.git"
+  },
+  "license": "ISC",
+  "author": "Eduardo Antonio Cruz Bolaños",
+  "type": "module",
+  "main": "src/index.js",
+"scripts": {
+  "dev": "nodemon src/index.js",
+  "start": "node src/index.js",
+  "seed": "node src/seed/seedProducts.js"
+},
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mongoose": "^9.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
