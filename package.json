@@ -17,7 +17,6 @@
   },
   "license": "ISC",
   "author": "Eduardo Antonio Cruz Bolaños",
-  "type": "module",
   "main": "src/index.js",
 "scripts": {
   "dev": "nodemon src/index.js",
